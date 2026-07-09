@@ -1,0 +1,19 @@
+=== /etc (Configuracion) ===
+total 792
+   30 drwxr-xr-x 2 root root       4096 Jun  9 20:44 PackageKit
+   33 drwxr-xr-x 7 root root       4096 Apr 20 12:06 X11
+   58 -rw-r--r-- 1 root root       4027 Nov  4  2025 adduser.conf
+   59 drwxr-xr-x 2 root root       4096 Apr 20 12:07 alternatives
+  157 drwxr-xr-x 2 root root       4096 Apr 20 12:06 apparmor
+  159 drwxr-xr-x 9 root root       4096 Jun  9 20:44 apparmor.d
+  503 drwxr-xr-x 3 root root       4096 Apr 20 12:07 apport
+
+=== /var/log (Logs) ===
+total 1564
+44807 lrwxrwxrwx 1 root      root                39 Apr 20 12:05 README -> ../../usr/share/doc/systemd/README.logs
+44808 -rw-r--r-- 1 root      root             25229 Jun  9 20:44 alternatives.log
+44809 drwxr-xr-x 2 root      root              4096 Jun 25 13:51 apt
+44871 -rw-r----- 1 syslog    adm              15142 Jun 25 19:17 auth.log
+44812 -rw-r--r-- 1 root      root            148279 Apr 20 12:06 bootstrap.log
+44813 -rw-rw---- 1 root      utmp                 0 Apr 20 12:05 btmp
+44869 drwxr-x--- 2 _chrony   _chrony           4096 Jun  9 20:41 chrony

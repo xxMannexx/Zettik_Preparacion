@@ -1,0 +1,6 @@
+type -a ls: 
+ls is aliased to `ls --color=auto'
+ls is /usr/bin/ls
+ls is /bin/ls
+type cd:
+cd is a shell builtin
