@@ -1,0 +1,5 @@
+
+=== Permisos: octal vs cadena ===
+644 -rw-r--r-- p1
+755 -rwxr-xr-x p2
+600 -rw------- p3

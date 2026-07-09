@@ -1,0 +1,14 @@
+=== DESAFÍO: DIRECTORIO COMPARTIDO Y BIT SETGID (CORREGIDO) ===
+
+--- ANTES: Estado del directorio sin SETGID (Sin la 's') ---
+drwxr-xr-x 2 manee zettik_labs 4096 Jul  8 17:43 desafio_compartido
+
+Prueba 1: Creando archivo SIN el bit SETGID activo...
+-rw-r--r-- 1 manee manee 0 Jul  8 17:43 desafio_compartido/archivo_sin_setgid.txt
+
+--- DESPUÉS: Estado del directorio CON SETGID activo (Con la 's') ---
+drwxr-sr-x 2 manee zettik_labs 4096 Jul  8 17:43 desafio_compartido
+
+Prueba 2: Creando archivo CON el bit SETGID activo...
+-rw-r--r-- 1 manee zettik_labs 0 Jul  8 17:43 desafio_compartido/archivo_con_setgid.txt
+

@@ -1,0 +1,9 @@
+Demostrar el efecto del umask creando con 2 mascaras distintas
+
+=== umask 022 ===
+644 -rw-r--r-- f022
+755 drwxr-xr-x d022
+
+=== umask 077 ===
+600 -rw------- f077
+700 drwx------ d077

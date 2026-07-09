@@ -1,0 +1,8 @@
+Provocar y resolver un permission deniend
+
+=== Antes del chmod +x ===
+-bash: ./run.sh: Permission denied
+(Fallo como se esperaba: sin bit x)
+
+=== Despues de chmod +x ===
+funciona

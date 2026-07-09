@@ -1,0 +1,10 @@
+=== Enlaces inodo y contador ===
+1876 -rw-r--r-- 2 manee manee 17 Jul  8 16:08 base.txt
+2006 lrwxrwxrwx 1 manee manee  8 Jul  8 16:09 blando.txt -> base.txt
+1876 -rw-r--r-- 2 manee manee 17 Jul  8 16:08 duro.txt
+
+El inodo de base.txt y duro.txt debe COINCIDIR; el de blando debe diferir
+
+OK: duro comprate inodo con base
+
+OK: blando tiene su propio inodo

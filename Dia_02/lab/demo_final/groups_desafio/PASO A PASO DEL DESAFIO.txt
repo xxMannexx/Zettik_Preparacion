@@ -1,0 +1,22 @@
+Crea un directorio compartido simulado: actívale el bit setgid (chmod g+s) y demuestra que un archivo creado dentro hereda el grupo del directorio en lugar de tu grupo primario. Documenta el antes/después con ls -l. Explica con el Concepto F por qué esto es útil para carpetas de equipo. (Integra propiedad + bits especiales + verificación.)
+
+PASOS: 
+1. Primero creo un nuevo usuario 
+	sudo adduser maneinvitado
+
+2. Creo el grupo "Compartido"
+	sudo groupadd compartido
+	newgrp compartido
+
+
+3. Añadir usuarios al grupo
+	sudo usermod -aG compartido manee
+	sudo usermod -aG compartido maneinvitado
+
+4. Crear directorio
+	mkdir -p ~/directorio_zettik
+
+5. Poner de duenio al nuevo grupo: 
+	sudo chgrp zettik_labs ~/directorio_zettik
+
+6. Todo lo demás se encuentra en evidencia_setgid.txt
