@@ -1,0 +1,3 @@
+=== TERM (LIMPIO) VS KILL (FORZADO) ===
+P1 (TERM) : terminado
+P2 (KILL): terminado

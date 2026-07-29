@@ -1,0 +1,8 @@
+Shell PID: 570
+manee        570     569  0 13:05 pts/3    00:00:00          \_ -bash
+manee       1430     570  0 13:46 pts/3    00:00:00              \_ ps -ef --forest
+manee       1431     570  0 13:46 pts/3    00:00:00              \_ grep --color=auto -A2 570
+root          46       1  0 13:01 ?        00:00:00 /usr/lib/systemd/systemd-journald
+systemd+      63       1  0 13:01 ?        00:00:00 /usr/lib/systemd/systemd-resolved
+    PID    PPID STAT CMD
+   1432     570 R+   ps -o pid,ppid,stat,cmd --ppid 570

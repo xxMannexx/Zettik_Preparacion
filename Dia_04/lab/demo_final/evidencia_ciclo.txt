@@ -1,0 +1,13 @@
+=== Cliclo de vida del PID ===
+Inicial: 
+    PID STAT CMD
+    847 S    sleep 1000
+Tras SIGSTOP (esperado T): 
+    PID STAT CMD
+    847 T    sleep 1000
+Tras SIGCONT (Se espera S): 
+    PID STAT CMD
+    847 S    sleep 1000
+Tras SIGTERM: 
+    PID STAT CMD
+(Terminado)

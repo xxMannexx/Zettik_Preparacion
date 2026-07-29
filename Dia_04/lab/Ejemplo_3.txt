@@ -1,0 +1,20 @@
+## SIMULAR UN ENTRENAMIENTO QUE IMPRIME PROGRESO CADA SEGUNDO: 
+
+cat > entrenar_sim.sh << 'EOF'
+#!/bin/bash
+for i in $(seq 1 1 20); do
+  echo "Época $i/20 - loss=$(echo "scale=3; 1/$i" | bc)"
+  sleep 1
+done
+echo "Entrenamiento completo"
+EOF
+chmod +x entrenar_sim.sh
+
+
+## Lanzarlo inmune a SIGHUP, con log, en background y baja prioridad: 
+
+nohup nice -n 19 ./entrenar_sim.sh > train.log 2>&1 &
+PID=$!
+echo "Entrenando con PID=$PID (niceness 19)"
+
+ENtrenando con PID=1880 (niceness 19)

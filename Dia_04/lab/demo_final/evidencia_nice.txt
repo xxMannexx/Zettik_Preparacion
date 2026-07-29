@@ -1,0 +1,5 @@
+=== Niceness: A debe ser 0, B debe ser 19 ===
+    PID  NI CMD
+   1204   0 sleep 300
+    PID  NI CMD
+   1216  19 sleep 300

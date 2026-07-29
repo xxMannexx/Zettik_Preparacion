@@ -1,0 +1,3 @@
+=== nohup: el proceso ignora SIGHUP ===
+PID nohup: 1780
+Sigue vivo tras SIGHUP (correcto)

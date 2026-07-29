@@ -1,0 +1,9 @@
+Lanzado PID=1571
+    PID STAT CMD
+   1571 S    sleep 600
+    PID STAT CMD
+   1571 T    sleep 600
+    PID STAT CMD
+   1571 S    sleep 600
+    PID STAT CMD
+Terminado limpiamente

@@ -1,0 +1,25 @@
+## Proceso que escribe en disco con bufer siumulado: escribe en partes con pausa
+
+cat > escritor.sh << 'EOF'
+#!/bin/bash
+for i in $(seq 1 100); do
+  echo "registro $i" >> salida_datos.txt
+  sleep 1
+done
+EOF
+chmod +x escritor.sh
+ 
+rm -f salida_datos.txt
+./escritor.sh &
+PID=$!
+sleep 10                  # lo dejamos escribir ~10 registros
+
+
+PARA DEMOSTRAR EL CIERRE FORZADO Y COMO DEJA DATOS CORRUPTOS O SIN TERMINAR HACEMOS: 
+
+
+ kill -9 $PID
+wc -l salida_datos.txt   # quedó truncado donde el kernel cortó, sin orden de cierre
+
+La salida real esta en salida_datos.txt
+
