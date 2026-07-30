@@ -1,0 +1,13 @@
+find: localizar y auditar
+
+  echo "=== Archivos .py (no tests) ==="
+  find app -name "*.py" -not -name "test_*"
+  echo "=== Auditoría: archivos con permiso 777 ==="
+  find app -type f -perm 777
+
+
+=== Archivos.py (no test) ===
+app/src/client.py
+app/src/server.py
+=== Auditoria de archivos con permisos 777 ===
+app/config/secret.env

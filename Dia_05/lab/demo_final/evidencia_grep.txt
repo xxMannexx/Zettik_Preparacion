@@ -1,0 +1,18 @@
+grep: análisis del log
+
+echo "=== Conteo por nivel ==="
+  grep -oE "(INFO|WARN|ERROR)" app/logs/run.log | sort | uniq -c | sort -rn
+  echo "=== Códigos de error extraídos ==="
+  grep -oE "code=[0-9]+" app/logs/run.log
+  echo "=== Emails encontrados ==="
+  grep -oE "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]+" app/logs/run.log
+
+=== Conteo por nivel ===
+      2 INFO
+      2 ERROR
+      1 WARN
+=== Codigos de error extraidos ===
+code=503
+code=408
+=== Emails encontrados ===
+carlos@mail.com

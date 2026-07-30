@@ -1,0 +1,25 @@
+regex: validar formatos (con casos que aceptan y rechazan)
+
+echo "=== Validación de email simple ==="
+  for s in "carlos@mail.com" "no-es-email" "a@b.co"; do
+    if echo "" | grep -qE "^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"; then
+      echo "  ACEPTA: "
+    else
+      echo "  RECHAZA: "
+    fi
+  done
+  echo "=== Validación 'solo dígitos' (anclado) ==="
+  for s in "12345" "12a45" ""; do
+    echo "" | grep -qE "^[0-9]+$" && echo "  ACEPTA: ''" || echo "  RECHAZA: ''"
+  done
+"
+
+
+=== Validación de email simple ===
+  ACEPTA: carlos@mail.com
+  RECHAZA: no-es-email
+  ACEPTA: a@b.co
+=== Validación 'solo dígitos' (anclado) ===
+  ACEPTA: '12345'
+  RECHAZA: '12a45'
+  RECHAZA: ''

@@ -1,0 +1,5 @@
+2026-01-20 10:00:01 INFO inicio user=carlos email=carlos@mail.com
+2026-01-20 10:00:15 ERROR conexión fallida code=503
+2026-01-20 10:01:30 INFO detección objeto=persona conf=0.91
+2026-01-20 10:02:00 WARN disco al 91%
+2026-01-20 10:02:45 ERROR timeout code=408
