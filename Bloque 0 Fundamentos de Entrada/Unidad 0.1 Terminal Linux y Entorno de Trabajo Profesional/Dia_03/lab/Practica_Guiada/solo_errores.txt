@@ -1,0 +1,2 @@
+ERROR: La persona no es reconocida por el sistema
+ERROR: La persona esta mal ubicada

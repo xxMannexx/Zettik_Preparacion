@@ -1,0 +1,22 @@
+=== Conteo por nivel (pipeline de 3 etapas) ===
+      4 INFO
+      2 WARN
+      2 ERROR
+
+
+=== > VS >>: El archivo debe tener DOS lineas ===
+Primera
+Segunda
+
+=== find con errores silenciados ===
+find /etc -maxdepth 1 -name "*.conf" 2>/dev/null | head -3
+/etc/xattr.conf
+/etc/libaudit.conf
+/etc/locale.conf
+
+
+
+=== tee: conteo de ERROR guardado en errores.txt ===
+grep ERROR app.log | tee errores.txt | wc -l
+
+2

@@ -1,0 +1,1 @@
+ls: cannot access 'fantasma.txt': No such file or directory
