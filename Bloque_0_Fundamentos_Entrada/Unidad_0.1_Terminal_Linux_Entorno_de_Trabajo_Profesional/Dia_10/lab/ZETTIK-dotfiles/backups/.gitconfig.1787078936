@@ -1,0 +1,7 @@
+[user]
+	email = emmanuel_jordanl@cbtis162.edu.mx
+	name = xxMannexx
+[merge]
+	conflictStyle = diff3
+[pull]
+	rebase = false

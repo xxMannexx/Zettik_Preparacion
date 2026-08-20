@@ -1,0 +1,10 @@
+# bashrc modular de ZETTIK - cargado via enlace simbolico desde ~/.bashrc
+
+DOTFILES="$HOME/.dotfiles"
+for modulo in aliases exports functions; do
+[ -f "$DOTFILES/$modulo" ] && source "$DOTFILES/$modulo"
+done
+
+# Secretos locales (no versionados), si existen:
+
+[ -f "$HOME/.secrets" ] && source "HOME/.secrets"

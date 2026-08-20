@@ -1,0 +1,4 @@
+=== Rebase: el commit se recrea con hash distinto ===
+hash antes:   add716e3ac67c94fc8a77a4425b5edc1a07ce99a
+hash después: add716e3ac67c94fc8a77a4425b5edc1a07ce99a
+ERROR

@@ -1,0 +1,5 @@
+# Secretos locales (nunca versionar)
+secrets
+.secrets
+# Respaldos generados por el instalador
+backups/

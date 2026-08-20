@@ -1,0 +1,6 @@
+## Alias personales
+
+alias ll='ls -la'
+alias gs='git status'
+alias gl='git log --oneline --graph'
+alias ..='cd ..'

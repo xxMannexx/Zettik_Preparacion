@@ -1,0 +1,4 @@
+=== Deduplicación: dos contenidos idénticos, un solo hash ===
+hash de x.txt: 30dfaa608f508b3da824a45ab08b10c3575c3439
+hash de y.txt: 30dfaa608f508b3da824a45ab08b10c3575c3439
+IGUALES: Git los guardaría como UN solo blob

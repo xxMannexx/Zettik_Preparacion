@@ -1,0 +1,2 @@
+=== Fusión de tres vías: el merge commit tiene dos padres ===
+parent 217e13eb615027f474af2d608327633fdc404666

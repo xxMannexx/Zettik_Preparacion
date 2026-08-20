@@ -1,0 +1,8 @@
+[user]
+    name = Tu Nombre
+    email = tu@correo.com
+[init]
+    defaultBranch = main
+[alias]
+    st = status
+    lg = log --oneline --graph --all

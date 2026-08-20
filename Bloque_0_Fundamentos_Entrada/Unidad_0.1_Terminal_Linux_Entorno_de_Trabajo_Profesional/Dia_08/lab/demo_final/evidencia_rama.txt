@@ -1,0 +1,4 @@
+=== Rama como puntero (refs/heads) ===
+main:         
+experimental: 217e13eb615027f474af2d608327633fdc404666
+(ambos archivos contienen el mismo hash: la rama nueva apunta al mismo commit)

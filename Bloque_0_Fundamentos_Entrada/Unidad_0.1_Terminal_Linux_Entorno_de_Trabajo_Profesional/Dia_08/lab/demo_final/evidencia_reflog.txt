@@ -1,0 +1,8 @@
+=== Recuperación por reflog ===
+tras reset, git log no muestra el commit importante:
+add716e feat: r
+aaa6c74 merge: resuelve valor a 15
+b80a575 conf: 10
+pero el reflog conserva su hash; se recupera:
+1f0b0f2 feat: commit importante
+(recuperado gracias a la inmutabilidad del almacén, Día 7)

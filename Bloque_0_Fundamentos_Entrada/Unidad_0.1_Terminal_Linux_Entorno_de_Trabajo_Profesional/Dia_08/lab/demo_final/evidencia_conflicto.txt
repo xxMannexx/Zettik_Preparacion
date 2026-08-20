@@ -1,0 +1,2 @@
+=== Conflicto resuelto: el archivo final no contiene marcadores ===
+OK: sin marcadores; valor=valor=15

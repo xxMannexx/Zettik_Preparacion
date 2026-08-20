@@ -1,0 +1,8 @@
+# Variables de entorno de ZETTIK PC
+
+export EDITOR=vim
+
+export ZETTIK_HOME="$HOME/ZETTIK"
+
+export PATH="$HOME/bin:$PATH"
+

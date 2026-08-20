@@ -1,0 +1,6 @@
+=== Encadenamiento de commits (cada uno apunta a su padre) ===
+88d478b chore: sube a v1.1.0
+ecf4a90 chore: versión inicial
+-- el commit actual referencia a su PADRE por hash: --
+parent ecf4a908d984e7f17ef389798d1cfbd82d5e7d64
+(cambiar el commit padre cambiaría su hash, invalidando este commit)

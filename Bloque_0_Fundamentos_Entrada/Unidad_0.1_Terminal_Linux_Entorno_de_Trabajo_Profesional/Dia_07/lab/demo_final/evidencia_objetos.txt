@@ -1,0 +1,11 @@
+=== Modelo de objetos del primer commit ===
+-- commit ecf4a908d984e7f17ef389798d1cfbd82d5e7d64 --
+tree d535e2a1a738dd3c7ba0fe5b507e1402f0536b52
+author xxMannexx <emmanuel_jordanl@cbtis162.edu.mx> 1786481518 -0600
+committer xxMannexx <emmanuel_jordanl@cbtis162.edu.mx> 1786481518 -0600
+
+chore: versión inicial
+-- tree d535e2a1a738dd3c7ba0fe5b507e1402f0536b52 --
+100644 blob 0ec25f7505c14bad77f34453b2730417ab431293	VERSION
+-- blob 0ec25f7505c14bad77f34453b2730417ab431293 (contenido) --
+v1.0.0

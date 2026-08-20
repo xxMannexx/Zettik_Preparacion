@@ -1,0 +1,4 @@
+# Funciones del shell de ZETTIK
+
+mkcd() { mkdir -p "$1" && cd "$1"; }
+gcommit() { git add -A && git commit -m "$1"; } # add y commit con un mensaje
