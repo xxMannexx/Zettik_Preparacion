@@ -9,9 +9,10 @@ print(b)
 
 ## Contraste de reasignacion vs nuevo objeto
 
-x = 10
+x = 10000
 y = x # Mismo objeto que x
 
-y = y + 1  # Se reevalua el objeto y ya es diferente y +1 = 11, esto le da a y un objeto nuevo con el valor 11
-y = y + 1 - 1 # Aunque se reevalua genero el mismo valor por lo cual no se asigna a otro objeto
-print(y is x)
+#y = y + 1  # Se reevalua el objeto y ya es diferente y +1 = 11, esto le da a y un objeto nuevo con el valor 11
+y = y + 1 - 1 # Aunque se reevalua genero el mismo valor por lo cual no se asigna a otro objeto esto solo por optimizacion
+print(id(y))
+print(id(x))
