@@ -1,0 +1,20 @@
+         31006 function calls in 0.111 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.111    0.111 /mnt/data/vixia_utils/scripts/profile_filtrado.py:17(benchmark)
+      200    0.077    0.000    0.078    0.000 /mnt/data/vixia_utils/src/vixia_utils/deteccion.py:24(filtrar_por_confianza)
+        1    0.015    0.015    0.032    0.032 /mnt/data/vixia_utils/scripts/profile_filtrado.py:10(carga)
+    10000    0.008    0.000    0.017    0.000 <string>:2(__init__)
+    10000    0.007    0.000    0.009    0.000 /mnt/data/vixia_utils/src/vixia_utils/deteccion.py:17(__post_init__)
+    10000    0.002    0.000    0.002    0.000 {method 'strip' of 'str' objects}
+      200    0.000    0.000    0.000    0.000 /usr/lib/python3.13/logging/__init__.py:1510(info)
+      400    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+      200    0.000    0.000    0.000    0.000 /usr/lib/python3.13/logging/__init__.py:1765(isEnabledFor)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.13/logging/__init__.py:1751(getEffectiveLevel)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.13/logging/__init__.py:1354(disable)
+
+

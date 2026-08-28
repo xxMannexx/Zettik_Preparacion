@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/vixia_utils/__init__.py
+src/vixia_utils/deteccion.py
+src/vixia_utils/logging_config.py
+src/vixia_utils/protocolos.py
+src/vixia_utils.egg-info/PKG-INFO
+src/vixia_utils.egg-info/SOURCES.txt
+src/vixia_utils.egg-info/dependency_links.txt
+src/vixia_utils.egg-info/top_level.txt
+tests/test_deteccion.py
+tests/test_protocolos.py
