@@ -1,6 +1,6 @@
 import pandas as pd
 import pytest
-import src.EDA_Zettik.analisis as analisis
+import EDA_Zettik.analisis as analisis
 
 
 

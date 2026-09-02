@@ -1,9 +1,9 @@
-from unittest.mock import patch
-import src.EDA_Zettik.Excepciones.excepciones as excepciones
+
+import EDA_Zettik.Excepciones.excepciones as excepciones
 import numpy as np
 import pandas as pd
 import pytest
-import src.EDA_Zettik.limpieza as limpieza
+import EDA_Zettik.limpieza as limpieza
 
 
 # 1. elimina duplicados

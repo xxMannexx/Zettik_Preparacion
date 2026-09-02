@@ -1,7 +1,7 @@
 import pandas as pd
 import os
-import src.EDA_Zettik.Excepciones.excepciones as excepcion
-from pandas.errors import EmptyDataError
+from pandas.errors import EmptyDataError   # Excepción lanzada por read_csv ante un CSV sin contenido
+from .Excepciones import excepciones as excepcion   # Misma identidad de módulofrom pandas.errors import EmptyDataError
 import logging
 
 ## Configuramos el logger para el loggin

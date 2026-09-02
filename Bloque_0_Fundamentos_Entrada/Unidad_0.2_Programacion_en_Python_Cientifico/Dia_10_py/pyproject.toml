@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]                      # Backend encargado de construir/instalar el paquete
+build-backend = "hatchling.build"            # Indica a Python que use Hatchling
+
+
+[project]
+name = "eda-zettik"                          # Nombre instalable del proyecto
+version = "0.1.0"                            # Primera versión del pipeline
+description = "Pipeline EDA reproducible para ZETTIK/VizionarIA"
+requires-python = ">=3.10"                   # Versión mínima de Python
+
+dependencies = [
+    "numpy",                                 # Cálculo numérico
+    "pandas",                                # Procesamiento tabular
+    "matplotlib",                            # Visualización base
+    "seaborn",                               # Visualización estadística
+]
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest",                                # Pruebas automatizadas
+    "mypy",                                  # Verificación estática de tipos
+    "types-seaborn",                         # Tipos necesarios para que mypy entienda Seaborn
+]
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/EDA_Zettik"]                 # Indica dónde está tu paquete real

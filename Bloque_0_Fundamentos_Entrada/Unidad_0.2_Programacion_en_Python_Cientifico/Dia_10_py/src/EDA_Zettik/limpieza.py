@@ -2,8 +2,7 @@ import pandas as pd
 import numpy as np
 import logging
 from . import carga
-import src.EDA_Zettik.Excepciones.excepciones as excepcion
-
+from .Excepciones import excepciones as excepcion   # Import relativo desde el mismo paquete
 
 logger = logging.getLogger(__name__)
 
