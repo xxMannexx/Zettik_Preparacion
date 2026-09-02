@@ -1,0 +1,6 @@
+objeto,confianza,fotograma,timestamp,camara
+persona,0.91,1,00:00:01,frontal
+coche,0.83,2,00:00:02,frontal
+bici,0.77,3,00:00:03,frontal
+perro,0.68,4,00:00:04,frontal
+persona,0.95,5,00:00:05,frontal
