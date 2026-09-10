@@ -8,10 +8,15 @@ class Nodo:
 a = Nodo("A")
 b = Nodo("B")
 c = Nodo("C")
+d = Nodo("D")
+elemento_medio = Nodo("Elemento medio")
+elemento_nuevo = Nodo("Elemento nuevo")
 
 a.siguiente = b
-b.siguiente = c
-## c.siguiente es None cumpliendo la regla
+b.siguiente = elemento_medio
+elemento_medio.siguiente = elemento_nuevo
+elemento_nuevo.siguiente = c
+c.siguiente = d
 
 actual = a
 
