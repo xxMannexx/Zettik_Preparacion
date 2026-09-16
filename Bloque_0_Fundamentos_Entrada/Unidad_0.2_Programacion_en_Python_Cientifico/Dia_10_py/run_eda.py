@@ -17,7 +17,7 @@ RUTA_CSV = os.path.join(                                             # Construye
     "src",
     "EDA_Zettik",
     "data",
-    "11_valido_grande_100k.csv"
+    "ataque_limpieza_122k.csv"
 )
 
 RUTA_SALIDAS = os.path.join(                                         # Construye carpeta de artefactos
@@ -39,3 +39,4 @@ if __name__ == "__main__":
         f"filas={hallazgos.n_datos} | "                               
         f"clase predominante={hallazgos.clase_predominante}"
     )
+
